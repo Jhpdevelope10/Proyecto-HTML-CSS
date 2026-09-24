@@ -59,3 +59,60 @@ h1, h2, h3 {
     padding: 60px 20px;
     background: var(--color-secondary);
 }
+
+.sobre-mi {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.portafolio {
+    padding: 40px 20px;
+}
+
+.grid-portafolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--color-secondary);
+    padding: 20px;
+    border-radius: var(--radius);
+}
+
+
+.contacto {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: var(--radius);
+    border: 1px solid #ccc;
+}
+
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
