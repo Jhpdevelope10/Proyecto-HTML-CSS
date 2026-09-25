@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Johann Placencia</title>
+    <meta name="description" content="Portafolio personal de Johann Placencia, desarrollador backend orientado a Node.js y sistemas técnicos.">
+    <meta name="author" content="Johann Placencia">
+    <meta name="keywords" content="portafolio, backend, nodejs, sistemas, API REST, panel administrativo">
+
+    <title>Johann Placencia - Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -21,67 +25,81 @@
         </nav>
     </header>
 
+    
     <section class="hero">
         <h1>Johann Placencia</h1>
-        <p>Desarrollador Backend en formación.</p>
+        <p>Desarrollador Backend en formación, orientado a Node.js, APIs REST y sistemas técnicos.</p>
+        <a href="#portafolio" class="btn">Ver proyectos</a>
     </section>
 
+    
     <main>
         <section id="sobre-mi" class="sobre-mi">
             <h2>Sobre mí</h2>
-            <p>Texto pendiente de completar.</p>
+            <p>
+                Soy un desarrollador backend en formación, motivado y enfocado en construir sistemas técnicos 
+                funcionales y bien estructurados. Me interesa especialmente el ecosistema de Node.js, las APIs REST, 
+                la monitorización de datos y la arquitectura de aplicaciones. Mi objetivo es crecer profesionalmente 
+                creando soluciones limpias, eficientes y escalables.
+            </p>
         </section>
 
+        
         <section id="portafolio" class="portafolio">
             <h2>Proyectos</h2>
 
             <div class="grid-portafolio">
+
                 <article class="card">
-                    <h3>Proyecto 1</h3>
-                    <p>Descripción pendiente.</p>
+                    <h3>NodeTrack API</h3>
+                    <p>API REST desarrollada con Node.js, Express y MySQL. Incluye endpoints CRUD para gestionar usuarios, roles y estados, con validación básica y estructura organizada en controladores, rutas y servicios.</p>
                 </article>
 
                 <article class="card">
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción pendiente.</p>
+                    <h3>DataPulse Dashboard</h3>
+                    <p>Panel administrativo minimalista para monitorizar métricas simuladas en tiempo real. Backend en Node.js y frontend con gráficos limpios usando Chart.js.</p>
                 </article>
 
                 <article class="card">
-                    <h3>Proyecto 3</h3>
-                    <p>Descripción pendiente.</p>
+                    <h3>TaskFlow Admin</h3>
+                    <p>Sistema de gestión de tareas con Node.js, Express y SQLite. CRUD completo, panel administrativo simple y filtrado por estado y prioridad.</p>
                 </article>
 
                 <article class="card">
-                    <h3>Proyecto 4</h3>
-                    <p>Descripción pendiente.</p>
+                    <h3>HabitSync</h3>
+                    <p>Aplicación personal para seguimiento de hábitos. Backend con Node.js y Express, almacenamiento en JSON local y una interfaz minimalista corporativa.</p>
                 </article>
+
             </div>
         </section>
 
+        
         <section id="contacto" class="contacto">
             <h2>Contacto</h2>
 
             <form>
                 <label>Nombre</label>
-                <input type="text">
+                <input type="text" required>
 
                 <label>Email</label>
-                <input type="email">
+                <input type="email" required>
 
                 <label>Mensaje</label>
-                <textarea></textarea>
+                <textarea required></textarea>
 
-                <button type="submit">Enviar</button>
+                <button class="btn" type="submit">Enviar</button>
             </form>
         </section>
     </main>
 
+   
     <footer class="site-footer">
         <p>© 2026 Johann Placencia</p>
         <div class="social">
-            <a href="https://github.com/Jhpdevelope10">GitHub</a>
+            <a href="https://github.com/Jhpdevelope10" target="_blank">GitHub</a>
         </div>
     </footer>
 
 </body>
 </html>
+
